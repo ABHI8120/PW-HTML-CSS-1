@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #edf1fd;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+/* Buttons */
+button{
+    background-color: rgb(18,155,155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: #fff;
+    border: 1.3px solid white  ;
+    border-radius: 15px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover{
+    border: 1.3px solid rgb(18,155,155);
+    color: rgb(18,155,155);
+    background-color: #fff;
+}
+/* end button style  */
+
+/* search input */
+input{
+    border-radius: 15px;
+border: 2px solid rgb(18,155,155);
+width: 200px;
+height: 25px;
+padding: 0px 20px;
+}
+
+/* Header Navbar  */
+nav{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    gap: 35px;
+    text-decoration: underline;
+}
+
+nav ul li{
+    cursor: pointer;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-weight: 600;
+    /* text-decoration: underline; */
+    color: rgb(18,155,155);
+     
+    
+}
+nav ul li a{
+    color: rgb(18,155,155);
+    text-decoration: none;
+    text-decoration: underline;
+}
+/* Font style */
+.logo {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+/* span */
+
+span {
+    color: rgb(18,155,155);
+    background-color: #dfdfe0;
+    border-radius: 5px;}
+
+    h2{
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .h2span {
+        font-weight: 800;
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 20px;
+        margin-top: 7px;
+      }
+      .pspan {
+        font-size: 25px;
+        font-weight: 600;
+      }
+    
+   
+/* End Font style */
+
+
+/* main box  */
+section{
+    margin: 10px;
+    justify-content: space-around;
+    padding: 35px 1px;
+
+}
+
+/* Main box left  */
+.box-laft{  
+    padding-top: 115px;
+    width: 595px;
+
+}
+
+
+/* main box right imgs */
+.box-right{
+    text-align: center;
+
+}
+
+img{
+    width: 450px;
+}
+
+/* Footer */
+footer{
+    justify-content: center;
+
+}
+.iconul{
+    margin-left: 30px;
+    text-align: center;
+    gap: 10px;
+}
+
